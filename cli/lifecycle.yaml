@@ -1,0 +1,5 @@
+sonarr:
+  pre_up:
+    - mkdir -p ${PWD}/config/sonarr
+    - mkdir -p ${DATA_DIR}/media
+    - mkdir -p ${DATA_DIR}/downloads

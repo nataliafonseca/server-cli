@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "server"
+version = "0.1.0"
+description = "My home server CLI"
+authors = ["Natália Fonseca <natalia@nataliafonseca.dev>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+typer = "^0.7.0"
+pyyaml = "^6.0"
+python-dotenv = "^0.21.0"
+yaml-env-var-parser = "^1.1.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
